@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srikanta Creations - Custom Paper Bags, Tailoring & Insurance</title>
+    <meta name="description" content="Your trusted partner for customised paper bags, expert tailoring services, and comprehensive insurance solutions. Premium quality with prompt delivery.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#home" class="logo" data-nav="home">Srikanta Creations</a>
+            <nav class="nav" id="nav">
+                <a href="#home" class="nav-link active" data-nav="home">Home</a>
+                <a href="#paper-bags" class="nav-link" data-nav="paper-bags">Paper Bags</a>
+                <a href="#dress-stitching" class="nav-link" data-nav="dress-stitching">Dress Stitching</a>
+                <a href="#insurance" class="nav-link" data-nav="insurance">Insurance</a>
+                <a href="#gallery" class="nav-link" data-nav="gallery">Gallery</a>
+                <a href="#contact" class="nav-link" data-nav="contact">Contact Us</a>
+            </nav>
+            <a href="#contact" class="btn-enquire-header" data-nav="contact">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Enquire Now
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="mobile-menu-link" data-nav="home">Home</a>
+        <a href="#paper-bags" class="mobile-menu-link" data-nav="paper-bags">Paper Bags</a>
+        <a href="#dress-stitching" class="mobile-menu-link" data-nav="dress-stitching">Dress Stitching</a>
+        <a href="#insurance" class="mobile-menu-link" data-nav="insurance">Insurance</a>
+        <a href="#gallery" class="mobile-menu-link" data-nav="gallery">Gallery</a>
+        <a href="#contact" class="mobile-menu-link" data-nav="contact">Contact Us</a>
+    </div>
+
+    <!-- ============ HOME PAGE ============ -->
+    <main>
+        <section class="page active" id="page-home">
+            <!-- Hero Section -->
+            <div class="hero">
+                <div class="hero-bg">
+                    <div class="hero-wave"></div>
+                    <div class="hero-wave hero-wave-2"></div>
+                </div>
+                <div class="hero-content">
+                    <p class="hero-subtitle">WELCOME TO</p>
+                    <h1 class="hero-title">Srikanta <span class="gold">Creations</span></h1>
+                    <p class="hero-desc">Your trusted partner for customised paper bags, expert tailoring services, and comprehensive insurance solutions.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-gold" data-nav="contact">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            Enquire Now
+                        </a>
+                        <a href="#paper-bags" class="btn btn-outline" data-nav="paper-bags">
+                            Explore Services
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <span class="hero-social-text">Follow Us:</span>
+                        <a href="https://www.instagram.com/gift_paper_bags?utm_source=qr&igsh=cTF4ODVna2d4Zmtv" target="_blank" class="hero-social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+            <div class="section section-light">
+                <div class="container">
+                    <p class="section-subtitle">WHAT WE OFFER</p>
+                    <h2 class="section-title">Our Services</h2>
+                    <div class="services-grid">
+                        <a href="#paper-bags" class="service-card" data-nav="paper-bags">
+                            <div class="service-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a4 4 0 0 0-8 0v2"/><path d="M12 12v3"/></svg>
+                            </div>
+                            <h3 class="service-card-title">Custom Paper Bags</h3>
+                            <p class="service-card-desc">Premium craft & luxury white paper bags with custom logo printing. Perfect for gifts, boutiques, festivals & events.</p>
+                        </a>
+                        <a href="#dress-stitching" class="service-card" data-nav="dress-stitching">
+                            <div class="service-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.5 2v6.5L18 5.5"/><path d="M9.5 2v6.5L6 5.5"/><path d="M12 8.5c-4 0-8 2-8 8.5h16c0-6.5-4-8.5-8-8.5z"/></svg>
+                            </div>
+                            <h3 class="service-card-title">Dress Stitching & Designs</h3>
+                            <p class="service-card-desc">Expert tailoring for formal, casual, kurta paijama, suits & blazers. Plus alterations for men & ladies.</p>
+                        </a>
+                        <a href="#insurance" class="service-card" data-nav="insurance">
+                            <div class="service-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                            <h3 class="service-card-title">Insurance Services</h3>
+                            <p class="service-card-desc">Life, Health & Motor Insurance with personalised plans. Pre & post sale services with budget-friendly guidance.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Commitment Section -->
+            <div class="section section-light commitment-section">
+                <div class="container">
+                    <p class="section-subtitle">WHY CHOOSE US</p>
+                    <h2 class="section-title">Our Commitment</h2>
+                    <div class="commitment-grid">
+                        <div class="commitment-item">
+                            <div class="commitment-icon-ring">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            </div>
+                            <h3 class="commitment-title">Premium Quality</h3>
+                            <p class="commitment-desc">Only the finest materials and craftsmanship</p>
+                        </div>
+                        <div class="commitment-item">
+                            <div class="commitment-icon-ring">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <h3 class="commitment-title">Prompt Delivery</h3>
+                            <p class="commitment-desc">End-to-end commitment with no delays</p>
+                        </div>
+                        <div class="commitment-item">
+                            <div class="commitment-icon-ring">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <h3 class="commitment-title">Client-First</h3>
+                            <p class="commitment-desc">Detailed discussion before every project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="section section-dark cta-section">
+                <div class="container cta-container">
+                    <h2 class="cta-title">Ready to Get Started?</h2>
+                    <p class="cta-desc">Whether you need custom paper bags, expert tailoring, or insurance guidance — we're here to help.</p>
+                    <a href="#contact" class="btn btn-gold" data-nav="contact">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Enquire Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ PAPER BAGS PAGE ============ -->
+        <section class="page" id="page-paper-bags">
+            <div class="page-hero">
+                <div class="hero-bg">
+                    <div class="hero-wave"></div>
+                    <div class="hero-wave hero-wave-2"></div>
+                </div>
+                <div class="page-hero-content">
+                    <h1 class="page-hero-title gold">Customised Paper Bags</h1>
+                    <p class="page-hero-desc">Premium quality paper bags tailored to your brand and occasion</p>
+                </div>
+            </div>
+
+            <div class="section section-light">
+                <div class="container">
+                    <p class="section-subtitle">OUR OFFERINGS</p>
+                    <h2 class="section-title">Paper Bag Solutions</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/></svg>
+                            </div>
+                            <h3 class="feature-title">Custom Logo Printing</h3>
+                            <p class="feature-desc">We print your customised logo on paper bags. We discuss your requirements before processing to ensure perfect results.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+                            </div>
+                            <h3 class="feature-title">Premium Craft Paper Bags</h3>
+                            <p class="feature-desc">High-quality craft paper bags with elegant finish, perfect for boutiques and premium brands.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            </div>
+                            <h3 class="feature-title">Luxury White Paper Bags</h3>
+                            <p class="feature-desc">Sophisticated white paper bags that add a premium touch to your brand presentation.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M12 8V6a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v2M8 8V6a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v2"/></svg>
+                            </div>
+                            <h3 class="feature-title">Gift & Boutique Bags</h3>
+                            <p class="feature-desc">Customised paper bags designed specifically for gifting and boutique packaging needs.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                            </div>
+                            <h3 class="feature-title">Corporate & Event Orders</h3>
+                            <p class="feature-desc">Bulk orders for festivals, family programs, functions, and official programs with prompt delivery.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a4 4 0 0 0-8 0v2"/></svg>
+                            </div>
+                            <h3 class="feature-title">All Order Sizes</h3>
+                            <p class="feature-desc">We take minimum to maximum orders. No order is too small or too large for us.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Process Section -->
+            <div class="section section-light">
+                <div class="container">
+                    <p class="section-subtitle">HOW WE WORK</p>
+                    <h2 class="section-title">Our Process</h2>
+                    <div class="process-grid">
+                        <div class="process-step">
+                            <div class="process-number">1</div>
+                            <h3 class="process-title">Discuss Requirements</h3>
+                            <p class="process-desc">Share your needs and preferences with us</p>
+                        </div>
+                        <div class="process-connector"></div>
+                        <div class="process-step">
+                            <div class="process-number">2</div>
+                            <h3 class="process-title">Design Approval</h3>
+                            <p class="process-desc">Review and approve the design concepts</p>
+                        </div>
+                        <div class="process-connector"></div>
+                        <div class="process-step">
+                            <div class="process-number">3</div>
+                            <h3 class="process-title">Production</h3>
+                            <p class="process-desc">Premium quality manufacturing begins</p>
+                        </div>
+                        <div class="process-connector"></div>
+                        <div class="process-step">
+                            <div class="process-number">4</div>
+                            <h3 class="process-title">Prompt Delivery</h3>
+                            <p class="process-desc">On-time delivery to your doorstep</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="section section-dark cta-section">
+                <div class="container cta-container">
+                    <h2 class="cta-title gold">Get Custom Paper Bags</h2>
+                    <p class="cta-desc">Share your requirements and get premium quality paper bags delivered on time.</p>
+                    <a href="#contact" class="btn btn-gold" data-nav="contact">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Enquire Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ DRESS STITCHING PAGE ============ -->
+        <section class="page" id="page-dress-stitching">
+            <div class="page-hero">
+                <div class="hero-bg">
+                    <div class="hero-wave"></div>
+                    <div class="hero-wave hero-wave-2"></div>
+                </div>
+                <div class="page-hero-content">
+                    <h1 class="page-hero-title gold">Expert Tailoring Services</h1>
+                    <p class="page-hero-desc">Precision stitching for every occasion — formal, casual, and traditional</p>
+                </div>
+            </div>
+
+            <div class="section section-light">
+                <div class="container">
+                    <p class="section-subtitle">OUR SPECIALISATIONS</p>
+                    <h2 class="section-title">Tailoring Services</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                            </div>
+                            <h3 class="feature-title">Formal Pants & Shirts</h3>
+                            <p class="feature-desc">Perfect fit for work with premium fabrics and precise measurements for professional elegance.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.5 2v6.5L18 5.5"/><path d="M9.5 2v6.5L6 5.5"/><path d="M12 8.5c-4 0-8 2-8 8.5h16c0-6.5-4-8.5-8-8.5z"/></svg>
+                            </div>
+                            <h3 class="feature-title">Casual Pants & Shirts</h3>
+                            <p class="feature-desc">Comfortable everyday wear with stylish designs that keep you looking sharp and feeling great.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9v8l-2 3h18l-2-3V9c0-3.87-3.13-7-7-7z"/><path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2z"/></svg>
+                            </div>
+                            <h3 class="feature-title">Kurta Paijama</h3>
+                            <p class="feature-desc">Traditional wear with a modern touch. Perfect for festivals, prayers, and cultural celebrations.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                            <h3 class="feature-title">Suits & Blazers</h3>
+                            <p class="feature-desc">Master tailoring for special occasions — weddings, parties, and business meetings.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.5 2v6.5L18 5.5M9.5 2v6.5L6 5.5"/><path d="M4 14h16"/><path d="M12 8.5c-4 0-8 2-8 8.5h16c0-6.5-4-8.5-8-8.5z"/></svg>
+                            </div>
+                            <h3 class="feature-title">Men & Ladies Alterations</h3>
+                            <p class="feature-desc">Precision fitting and alterations for all garments. We ensure every piece fits perfectly.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            </div>
+                            <h3 class="feature-title">Special Events Wear</h3>
+                            <p class="feature-desc">Custom designs for weddings, engagements, and celebrations. Stand out on your special day.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Occasions Tags -->
+            <div class="section section-light">
+                <div class="container">
+                    <h2 class="section-title">We Stitch For Every Occasion</h2>
+                    <div class="tags-grid">
+                        <span class="tag">Festivals</span>
+                        <span class="tag">Family Programs</span>
+                        <span class="tag">Official Programs</span>
+                        <span class="tag">Weddings</span>
+                        <span class="tag">Functions</span>
+                        <span class="tag">Daily Wear</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="section section-dark cta-section">
+                <div class="container cta-container">
+                    <h2 class="cta-title gold">Get Your Perfect Fit</h2>
+                    <p class="cta-desc">We customise men's dresses with perfect designs and deliver on time, every time.</p>
+                    <a href="#contact" class="btn btn-gold" data-nav="contact">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Enquire Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ INSURANCE PAGE ============ -->
+        <section class="page" id="page-insurance">
+            <div class="page-hero insurance-hero">
+                <div class="hero-bg">
+                    <div class="hero-wave"></div>
+                    <div class="hero-wave hero-wave-2"></div>
+                </div>
+                <div class="page-hero-content">
+                    <h1 class="page-hero-title gold">Insurance Services</h1>
+                    <p class="page-hero-desc">Life, Health & Motor Insurance with personalised plans and dedicated support</p>
+                </div>
+            </div>
+
+            <div class="section section-light">
+                <div class="container">
+                    <p class="section-subtitle">COVERAGE OPTIONS</p>
+                    <h2 class="section-title">Insurance Plans</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                            <h3 class="feature-title">Life Insurance</h3>
+                            <p class="feature-desc">Secure your family's future with comprehensive life insurance plans tailored to your needs and budget.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </div>
+                            <h3 class="feature-title">Health Insurance</h3>
+                            <p class="feature-desc">Protect yourself and your loved ones with health insurance plans that cover medical expenses effectively.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 17h4V9h4l-6-7-6 7h4z"/><path d="M3 20h18"/></svg>
+                            </div>
+                            <h3 class="feature-title">Motor Insurance</h3>
+                            <p class="feature-desc">Comprehensive motor insurance coverage for your vehicles, ensuring peace of mind on every journey.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                            </div>
+                            <h3 class="feature-title">Insurance Education</h3>
+                            <p class="feature-desc">We simplify insurance concepts so you can make informed decisions about your coverage needs.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <h3 class="feature-title">Personalised Consultation</h3>
+                            <p class="feature-desc">Expert guidance based on your specific needs, helping you choose the right insurance plans.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <h3 class="feature-title">Pre & Post Sale Services</h3>
+                            <p class="feature-desc">End-to-end support for claims, renewals, and policy modifications. We're with you every step.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="section section-dark cta-section">
+                <div class="container cta-container">
+                    <h2 class="cta-title gold">Secure Your Future Today</h2>
+                    <p class="cta-desc">Get personalised insurance guidance and find the perfect plan for you and your family.</p>
+                    <a href="#contact" class="btn btn-gold" data-nav="contact">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Enquire Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTACT PAGE ============ -->
+        <section class="page" id="page-contact">
+            <div class="page-hero">
+                <div class="hero-bg">
+                    <div class="hero-wave"></div>
+                    <div class="hero-wave hero-wave-2"></div>
+                </div>
+                <div class="page-hero-content">
+                    <h1 class="page-hero-title gold">Contact Us</h1>
+                    <p class="page-hero-desc">Get in touch for customised paper bags, tailoring services, or insurance guidance</p>
+                </div>
+            </div>
+
+            <div class="section section-light">
+                <div class="container">
+                    <div class="contact-grid">
+                        <div class="contact-form-wrapper">
+                            <h2 class="contact-form-title">Send Us an Enquiry</h2>
+                            <form id="contactForm" class="contact-form">
+                                <div class="form-group">
+                                    <label for="fullName" class="form-label">Full Name</label>
+                                    <input type="text" id="fullName" class="form-input" placeholder="Enter your full name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactNumber" class="form-label">Contact Number</label>
+                                    <input type="tel" id="contactNumber" class="form-input" placeholder="Enter your contact number" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" id="email" class="form-input" placeholder="Enter your email address">
+                                </div>
+                                <div class="form-group">
+                                    <label for="service" class="form-label">Service Required</label>
+                                    <select id="service" class="form-input form-select" required>
+                                        <option value="" disabled selected>Select a service</option>
+                                        <option value="paper-bags">Paper Bags</option>
+                                        <option value="dress-stitching">Dress Stitching</option>
+                                        <option value="insurance">Insurance</option>
+                                        <option value="others">Others</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea id="message" class="form-input form-textarea" placeholder="Tell us about your requirements..." rows="5"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-gold btn-submit">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                                    Submit Enquiry
+                                </button>
+                            </form>
+                        </div>
+                        <div class="contact-info-wrapper">
+                            <div class="contact-promise-card">
+                                <h3 class="promise-title">Our Promise</h3>
+                                <p class="promise-desc">We provide end-to-end commitment with prompt services. Every enquiry is responded to within 24 hours. We discuss your requirements in detail before processing any order.</p>
+                            </div>
+                            <div class="contact-details-card">
+                                <h3 class="details-title">Get in Touch</h3>
+                                <div class="contact-detail-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                    <span>+91 92415 65808</span>
+                                </div>
+                                <div class="contact-detail-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                    <span>srikantasn915@gmail.com</span>
+                                </div>
+                                <div class="contact-detail-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                    <a href="https://maps.app.goo.gl/RXnQBp9w3MZjoK569?g_st=aw" target="_blank" class="contact-map-link">69, 3rd Main, 3rd Cross, Kalyan Nagar, Mudalapalya, Bengaluru, Karnataka 560072</a>
+                                </div>
+                                <div class="contact-detail-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                                    <a href="https://www.instagram.com/gift_paper_bags?utm_source=qr&igsh=cTF4ODVna2d4Zmtv" target="_blank" class="contact-map-link">@gift_paper_bags</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="page" id="page-gallery">
+            <div class="section section-dark">
+                <div class="container">
+                    <p class="section-subtitle">OUR WORK</p>
+                    <h2 class="section-title">Photo Gallery</h2>
+                    <div class="gallery-container">
+                        <div class="gallery-grid">
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.05 PM.jpeg" alt="Gallery Image 1" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.06 PM (1).jpeg" alt="Gallery Image 2" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.06 PM.jpeg" alt="Gallery Image 3" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.07 PM (1).jpeg" alt="Gallery Image 4" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.07 PM.jpeg" alt="Gallery Image 5" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.08 PM (1).jpeg" alt="Gallery Image 6" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.08 PM.jpeg" alt="Gallery Image 7" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.09 PM.jpeg" alt="Gallery Image 8" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.11 PM (1).jpeg" alt="Gallery Image 9" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.11 PM (2).jpeg" alt="Gallery Image 10" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.11 PM.jpeg" alt="Gallery Image 11" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.12 PM (1).jpeg" alt="Gallery Image 12" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.12 PM (2).jpeg" alt="Gallery Image 13" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.12 PM.jpeg" alt="Gallery Image 14" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.13 PM.jpeg" alt="Gallery Image 15" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.15 PM.jpeg" alt="Gallery Image 16" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.16 PM (1).jpeg" alt="Gallery Image 17" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.16 PM.jpeg" alt="Gallery Image 18" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.17 PM.jpeg" alt="Gallery Image 19" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.18 PM.jpeg" alt="Gallery Image 20" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.19 PM.jpeg" alt="Gallery Image 21" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.20 PM.jpeg" alt="Gallery Image 22" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.21 PM.jpeg" alt="Gallery Image 23" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.23 PM.jpeg" alt="Gallery Image 24" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.24 PM.jpeg" alt="Gallery Image 25" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.25 PM.jpeg" alt="Gallery Image 26" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.26 PM (1).jpeg" alt="Gallery Image 27" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.26 PM.jpeg" alt="Gallery Image 28" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.27 PM (1).jpeg" alt="Gallery Image 29" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.27 PM.jpeg" alt="Gallery Image 30" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.28 PM.jpeg" alt="Gallery Image 31" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.32 PM.jpeg" alt="Gallery Image 32" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.34 PM.jpeg" alt="Gallery Image 33" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.35 PM.jpeg" alt="Gallery Image 34" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.37 PM.jpeg" alt="Gallery Image 35" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.39 PM.jpeg" alt="Gallery Image 36" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.40 PM.jpeg" alt="Gallery Image 37" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.41 PM.jpeg" alt="Gallery Image 38" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.43 PM.jpeg" alt="Gallery Image 39" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.44 PM.jpeg" alt="Gallery Image 40" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.45 PM.jpeg" alt="Gallery Image 41" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.47 PM.jpeg" alt="Gallery Image 42" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.50 PM.jpeg" alt="Gallery Image 43" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.53 PM.jpeg" alt="Gallery Image 44" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.56 PM.jpeg" alt="Gallery Image 45" loading="lazy"></div>
+                            <div class="gallery-item"><img src="Gallery Photos/WhatsApp Image 2026-04-03 at 10.34.59 PM.jpeg" alt="Gallery Image 46" loading="lazy"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Thank You Overlay -->
+    <div class="thankyou-overlay" id="thankyouOverlay">
+        <div class="thankyou-content">
+            <div class="thankyou-checkmark">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h2 class="thankyou-title">Thank You!</h2>
+            <p class="thankyou-desc">Your enquiry has been received. We'll get back to you within 24 hours.</p>
+        </div>
+    </div>
+
+    <!-- Chatbox Widget -->
+    <div class="chatbox" id="chatbox">
+        <!-- Chat Toggle Button -->
+        <button class="chat-toggle" id="chatToggle" aria-label="Open chat">
+            <svg class="chat-toggle-icon chat-icon-open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <svg class="chat-toggle-icon chat-icon-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            <span class="chat-badge" id="chatBadge">1</span>
+        </button>
+
+        <!-- Chat Window -->
+        <div class="chat-window" id="chatWindow">
+            <div class="chat-header">
+                <div class="chat-header-left">
+                    <div class="chat-avatar">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <div class="chat-header-info">
+                        <h4 class="chat-header-title">Srikanta Creations</h4>
+                        <span class="chat-status"><span class="chat-status-dot"></span> Online</span>
+                    </div>
+                </div>
+                <button class="chat-close" id="chatClose" aria-label="Close chat">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <!-- Messages will be injected here -->
+            </div>
+
+            <div class="chat-quick-replies" id="chatQuickReplies">
+                <button class="quick-reply-btn" data-reply="Paper Bags">📦 Paper Bags</button>
+                <button class="quick-reply-btn" data-reply="Dress Stitching">👔 Dress Stitching</button>
+                <button class="quick-reply-btn" data-reply="Insurance">🛡️ Insurance</button>
+                <button class="quick-reply-btn" data-reply="Get a Quote">💰 Get a Quote</button>
+            </div>
+
+            <div class="chat-input-area">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Type your message..." autocomplete="off">
+                <button class="chat-send" id="chatSend" aria-label="Send message">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Enquire Button (Mobile) -->
+    <a href="#contact" class="floating-enquire" id="floatingEnquire" data-nav="contact">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Enquire Now
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 class="footer-logo">Srikanta Creations</h3>
+                <p class="footer-about">Your trusted partner for customised paper bags, tailoring services, and comprehensive insurance solutions.</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/gift_paper_bags?utm_source=qr&igsh=cTF4ODVna2d4Zmtv" target="_blank" class="social-link" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Quick Links</h4>
+                <a href="#paper-bags" class="footer-link" data-nav="paper-bags">Paper Bags</a>
+                <a href="#dress-stitching" class="footer-link" data-nav="dress-stitching">Dress Stitching</a>
+                <a href="#insurance" class="footer-link" data-nav="insurance">Insurance Services</a>
+                <a href="#gallery" class="footer-link" data-nav="gallery">Gallery</a>
+                <a href="#contact" class="footer-link" data-nav="contact">Contact Us</a>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Get in Touch</h4>
+                <div class="footer-contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <span>+91 92415 65808</span>
+                </div>
+                <div class="footer-contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <span>srikantasn915@gmail.com</span>
+                </div>
+                <div class="footer-contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <a href="https://maps.app.goo.gl/RXnQBp9w3MZjoK569?g_st=aw" target="_blank" class="contact-map-link">Mudalapalya, Bengaluru 560072</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Srikanta Creations. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
